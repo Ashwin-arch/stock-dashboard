@@ -52,6 +52,8 @@ git clone https://github.com/Ashwin-arch/stock-dashboard.git
 
 2. Open the project folder.
 3. Launch `index.html` directly in any modern web browser.
+4.Login to test1@gmail.com and see the different stocks
+5.Test the desired stock in web app.
 
 No server, backend, or installation of dependencies is required.
 
