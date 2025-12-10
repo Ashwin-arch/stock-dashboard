@@ -40,6 +40,8 @@ stock-dashboard/
 4. Charts update automatically when data changes.
 5. All processing happens on the client side without any backend or API authentication.
 
+Deployed Site:https://stock35.netlify.app/
+
 ## Installation and Setup
 
 1. Clone or download the project:
