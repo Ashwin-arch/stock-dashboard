@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="login-screen">
+    <h2>Login</h2>
+    <input type="email" id="user-email" placeholder="Enter Email">
+    <button onclick="login()">Continue</button>
+</div>
+
+<div class="container" id="dashboard" style="display:none;">
+    <h2 id="welcome-msg"></h2>
+
+    <h3>Available Stocks</h3>
+    <div id="stocks-container"></div>
+
+    <h3>Subscribed Stocks</h3>
+    <ul id="subscribed-list">
+        <li id="empty-msg">No subscriptions yet.</li>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
